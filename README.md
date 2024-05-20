@@ -1,5 +1,5 @@
 # Predicting the Markets Next Move-Building a Stock Price Prediction Model with LSTMs
-### Detailed Explanation of evevry step performed is explained in python code itself 
+### Detailed Explanation of every step performed is explained in python code itself 
 ### Some FAQ related to project
 ### Q1 Why there is conversion of data into supervised learning?
 ### Ans 1 Learning Dependencies: LSTMs are designed to capture long-term dependencies within sequential data. Supervised learning provides labeled data, where each sequence has a corresponding desired output. This allows the LSTM to learn the relationship between the elements in the sequence and the target output.Error Correction and Backpropagation: Supervised learning allows for error correction during training. The LSTM makes a prediction based on the sequence, and the model compares it to the actual labeled output. If there's a mismatch, the error is backpropagated through the network. This helps the LSTM adjust its internal parameters and learn from its mistakes to improve future predictions.Without labeled data for comparison, an unsupervised LSTM wouldn't have a clear target or a way to measure its success
