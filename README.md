@@ -1,4 +1,5 @@
 # Predicting the Markets Next Move-Building a Stock Price Prediction Model with LSTMs
+# All things are performed using MFST as an public traded stock and historical data is taken from Yahoo finance 
 ### Detailed Explanation of every step performed is explained in python code itself 
 ### Some FAQ related to project
 ### Q1 Why there is conversion of data into supervised learning?
